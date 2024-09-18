@@ -1,0 +1,102 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .appIcon {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .linkss {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: white;
+  }
+  
+
+
+  .nav_btn{
+    color: whitesmoke;
+    background-color: grey;
+    border-radius: 7px;
+    padding: 5px;
+  }
+
+  .nav_btn:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 'transform 0.3s ease';
+  }
+
+  .qAddcontainer {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    width: 90%; 
+    justify-content: center;
+    padding: 20px;
+    background-color: #fcf9f9;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(66, 48, 48, 0.5);
+    text-align: left; 
+  }
+
+
+
+/* 
+  .col-12{
+    width: 100%;
+  } */
+
+  .subBtn{
+    background-color: grey;
+    color: whitesmoke;
+  }
+
+  .btnHome{
+    background-color: #352626;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .btnHome:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 'transform 0.3s ease';
+  }
+
+  .addQstnInp{
+    width: 100%; /* Full width for input fields */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 5px;
+  }
+
+  .submitQstn{
+    margin-top: 10px;
+    background-color: #352626;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .submitQstn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 'transform 0.3s ease';
+  }
+  
+  
