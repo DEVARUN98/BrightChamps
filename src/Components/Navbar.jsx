@@ -26,7 +26,7 @@ function Navbar() {
             Quiz App
         </div>
         <ul className='linkss'>
-            <button onMouseEnter={handleMouseClickQstn} className='nav_btn' onClick={()=>navigate('/qstns')}>Questions</button>
+            <button onMouseEnter={handleMouseClickQstn} className='nav_btn' onClick={()=>navigate('/')}>Questions</button>
             <button onMouseEnter={handleMouseClickQstnAdd} className='nav_btn' type='button' onClick={()=>navigate('/qAdd')}>Add Questions</button>
         </ul>
         

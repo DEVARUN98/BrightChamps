@@ -19,7 +19,7 @@ function App() {
     {" "}
     <Navbar/>
       <Routes>{" "}
-      <Route path='qstns' element={<Questions/>} />
+      <Route path='' element={<Questions/>} />
         <Route path='qAdd' element={<Qstnadd/>} />
       </Routes>{" "}
     </Router></>
